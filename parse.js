@@ -9,7 +9,7 @@ const fs = require("fs");
   // Calculate attribute rarities
   let rarityIndex = {};
   for (let i = 0; i < loot.length; i++) {
-    const attributes = loot[i][(i + 1).toString()];
+    const attributes = loot[i][i.toString()];
 
     // Add up number of occurences of attributes
     for (const attribute of Object.values(attributes)) {
@@ -29,7 +29,7 @@ const fs = require("fs");
   let scores = [];
   for (let i = 0; i < loot.length; i++) {
     let score = 0;
-    const attributes = loot[i][(i + 1).toString()];
+    const attributes = loot[i][i.toString()];
 
     for (const attribute of Object.values(attributes)) {
       score += rarityIndex[attribute];
@@ -52,7 +52,7 @@ const fs = require("fs");
   let probability = [];
   for (let i = 0; i < loot.length; i++) {
     let scores = [];
-    const attributes = loot[i][(i + 1).toString()];
+    const attributes = loot[i][i.toString()];
 
     for (const attribute of Object.values(attributes)) {
       // Collect probability of individual attribute occurences
