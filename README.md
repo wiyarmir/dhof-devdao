@@ -2,18 +2,15 @@
   <h1 align="center">dhof-loot</h1>
 </p>
 <p align="center">
-<b><a href="https://github.com/anish-agnihotri/dhof-loot#About">About</a></b>
+<b><a href="https://github.com/anish-agnihotri/dhof-devdao#About">About</a></b>
 |
-<b><a href="https://github.com/anish-agnihotri/dhof-loot#Derivatives">Derivatives</a></b>
 |
-<b><a href="https://github.com/anish-agnihotri/dhof-loot#License">License</a></b>
+<b><a href="https://github.com/anish-agnihotri/dhof-devdao#License">License</a></b>
 </p>
 
 # About
 
-This repository contains tooling and data for [Loot](https://www.lootproject.com/faq) and other derivative projects, and is free to use without credit or attribution, for any means.
-
-The `/` directory contains scripts and data for Loot, and `/derivatives` contains the same for projects inspired from or built atop Loot.
+This repository contains tooling and data for [devdao](), and is free to use without credit or attribution, for any means.
 
 > Loot itself is a collection of 8,000 unique bags of adventurer gear NFTs. At release, anyone could claim loot bags for just gas, and all bags were claimed in under 4 hours. Each loot bag contains 8 items: a piece for an adventurer's chest, foot, hand, head, neck, ring, waist, and weapon.
 
@@ -51,17 +48,9 @@ npm run images
 
 To run derivative scripts, follow the README in their subdirectory.
 
-# Derivatives
-
-- [Ability Score](https://github.com/Anish-Agnihotri/dhof-loot/tree/master/derivatives/ability-score) — Ability score NFTs by [andy8052](https://twitter.com/andy8052)
-- [Extension Loot](https://github.com/Anish-Agnihotri/dhof-loot/tree/master/derivatives/extension-loot) — Data for the [Extension Loot](https://twitter.com/xLootProject) project
-- [Synthetic Loot Botting](https://github.com/Anish-Agnihotri/dhof-loot/tree/master/derivatives/synthetic-loot) — Botting ideal synthetic loot by mass generating addresses
-- [Fork: Dope Wars Loot](https://github.com/cybergen/dope-wars-loot) by [@cybergen](https://cybergen/dope-wars-loot)
-
 # Credits
 
-- [@ktasbas](https://github.com/ktasbas) for adding Loot base64 encoded SVG retrieval support
-- `vance46#5648` and `UFvOgue, X-Divine Rober#8392` for helping me flag and think through the probablistic occurence for Loot items
+- forked from https://github.com/Anish-Agnihotri/dhof-loot
 
 # License
 
